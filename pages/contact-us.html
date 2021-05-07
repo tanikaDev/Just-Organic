@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Just Organic</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/contact-us.css" />
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/846a6339d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+        <a class="logo navbar-brand" href="../index.html">Just Organic</a>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./our-boxes.html">Our Boxes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-btns">
+          <a
+            id="shoppingBasketBtn"
+            href="shopping-basket.html"
+      --      class="shopping-basket fas fa-shopping-basket fa-lg"
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container">
+        <div class="contact row">
+        <div class="contact-form col-lg-8">
+          <p class="form-text">
+            Thank you for checking out Just Organic. If you need any further
+            help or information please get in contact via our form below.
+          </p>
+          <form>
+            <div class="form-group row">
+              <label for="inputName" class="col-sm-2 col-form-label"
+                >Name</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label"
+                >Email</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail3"
+                  placeholder="Enter email"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPhone" class="col-sm-2 col-form-label"
+                >Phone</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputPhone"
+                  placeholder=""
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label
+                for="exampleFormControlTextarea1"
+                class="col-sm-2 col-form-label"
+                >Message</label
+              >
+              <div class="col-sm-10">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  row="3"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="contact-info col-lg-4">
+          <h3>Just Organic</h3>
+          <div class="contact-img"><img src="" alt="" /></div>
+          <p>tim.justorganic@gmail.com</p>
+          <p>07896345219</p>
+          <div class="social-links">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+  </body>
+</html>

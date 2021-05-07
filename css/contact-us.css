@@ -1,0 +1,42 @@
+
+.contact {
+  padding-top: 3rem;
+}
+
+/* Form */
+.form-text {
+  padding: 0 15% 5% 30px;
+}
+
+.form-group {
+  margin: 15px;
+}
+
+.form-control {
+  width: 80%;
+}
+
+/* Footer */
+footer {
+  background-color: #468B5C;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  padding: 0 10%;
+}
+
+.footer-links {
+  padding: 0 15px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .contact-info {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  #shoppingBasketLg {
+    display: hidden;
+  }
+}

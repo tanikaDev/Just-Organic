@@ -1,0 +1,93 @@
+/* Boxes Nav */
+.our-boxes-nav {
+  padding: 3% 10% 0;
+  color: #000;
+}
+
+.our-boxes-nav>.row {
+  padding: 0;
+}
+
+.our-boxes-nav-link {
+  color: #000;
+  padding-right: 2rem;
+}
+
+/* Fruits and Vegetables Section */
+.our-boxes {
+  margin-bottom: 50px;
+}
+
+.our-boxes-head {
+  padding-top: 3%;
+}
+
+/* .our-boxes-head-img {
+  max-width: 150px;
+  height: 150px;
+  margin-right: 40px;
+} */
+
+/* .our-boxes-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.our-boxes-head-text {
+  text-align: left;
+  border-bottom: 1px solid rgba(115, 115, 115, 0.6);
+}
+
+/* Boxes */
+#boxes {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.small-boxes, .med-boxes, .large-boxes {
+  padding-bottom: 2rem;
+}
+
+.price {
+  margin: 0;
+  padding-right: 2rem;
+  font-weight: 600;
+}
+
+.box-heading {
+  line-height: 1;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.box-desc {
+  color: rgba(115, 115, 115, 0.6);
+}
+
+/* FNV Boxes Hover */
+.small-boxes:hover, .med-boxes:hover, .large-boxes:hover {
+  background-color: rgba(70, 139, 92, 0.5);
+}
+
+/* Footer */
+footer {
+  background-color: #468b5c;
+  color: #fff;
+  padding-top: 20px;
+}
+
+
+
+.footer-nav-link {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .our-boxes-img {
+    height: 100px;
+  }
+}

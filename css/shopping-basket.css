@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* header {
+    margin-bottom: 400px;
+  } */
+  
+  h1, h2, h3, h4, h5, h6, p {
+    line-height: 2;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 0.9rem;
+  }
+  
+  ul {
+    list-style: none;
+    ;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  hr {
+    margin: 0;
+    padding-bottom: 3rem;
+  }
+  
+  .container-fluid {
+    text-align: left;
+    padding: 7% 10%;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .logo {
+    margin: 0;
+  }
+  
+  .our-boxes {
+    margin-top: 15%;
+  }
+  
+  nav {
+    background-color: rgba(70, 139, 92, 1) !important;
+    width: 100%;
+    min-height: 50px;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .bg-dark {
+    background-color: rgba(70, 139, 92, 1) !important;
+    padding: 0 10%;
+  }
+  
+  .nav-list {
+    padding: 0 15px;
+  }
+  
+  .nav-items {
+    color: #fff;
+  
+  }
+  
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  .shopping-basket {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+   
+  /* items Section */
+  .basket-list {
+    margin-top: 50px;
+  }
+
+  span {
+      font-size: 1rem;
+  }
+  
+  .basket-head-text {
+    padding-top: 5%;
+    text-align: left;
+    border-bottom: 1px solid rgba(115, 115, 115, 0.6);
+  }
+  
+  /* Boxes */
+  .item-desc {
+    color: rgba(115, 115, 115, 0.847);
+  }
+
+  .price {
+    margin: 0;
+    padding-right: 2rem;
+    font-weight: 600;
+  }
+
+  /* Total Price */
+
+  #totalHead {
+    /* padding: 0; */
+    margin: 0;
+  }
+  /* FNV Boxes Hover */
+  .small-boxes:hover, .med-boxes:hover, .large-boxes:hover {
+    background-color: rgba(70, 139, 92, 0.5);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #468b5c;
+    color: #fff;
+    padding-top: 20px;
+  }
+  
+  .footer-nav-link {
+    color: #fff;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 600px) {
+    .price {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }

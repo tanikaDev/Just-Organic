@@ -1,0 +1,367 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Just Organic</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/our-boxes.css">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/846a6339d9.js" crossorigin="anonymous"></script>
+
+  
+  
+</head>
+<body> 
+  <header>
+      <!-- Nav -->
+      <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+        <a class="logo navbar-brand" href="../index.html">Just Organic</a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center ">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./our-boxes.html">Our Boxes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-btns">
+          <a id="shoppingBasketBtn" href="shopping-basket.html" class="shopping-basket fas fa-shopping-basket fa-lg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- Our Boxes Nav -->
+      <!-- <nav class="our-boxes-nav bg-light">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="our-boxes-nav-link nav-link active" data-toggle="tab" href="#fnv" role="tab">Fruit and Veg Boxes</a>
+          </li>
+          <li class="nav-item">
+            <a class="our-boxes-nav-link nav-link" data-toggle="tab" href="#veg" role="tab">Veg Boxes</a>
+          </li>
+          <li class="nav-item">
+            <a class="our-boxes-nav-link nav-link" data-toggle="tab" href="#fruit" role="tab">Fruit Boxes</a>
+          </li>
+          <li class="nav-item">
+            <a class="our-boxes-nav-link nav-link" data-toggle="tab" href="#special" role="tab">Special Boxes</a>
+          </li>
+        </ul>
+      </nav> -->
+    </header>
+  <main>
+    <!-- Fruit and Veg Boxes -->
+    <section class="container our-boxes tab-content " id="nav-tabContent">
+
+      <!-- Fruit and Veg Section -->
+      <section id="fnv" class="fnv tab-pane show active row" role="tabpanel">
+        <div class="our-boxes-head col-12 p-0">
+          <div class="our-boxes-head-img row">
+            <img class="our-boxes-img col-3 p-0" src="../img/fruit and veg.jpg" alt="image of fruits and vegetables">
+            <div class="our-boxes-head-text col-9">
+              <h2 id="fruitAndVegName" class="our-boxes-title">Fruit and Veg Boxes</h2>
+              <p class="our-boxes-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+            
+          </div>
+          
+        </div>
+
+        <div id="boxes" class="row">
+          <div id="fnv-small-boxes " class="small-boxes col-12">
+            <div class="box-container row">
+              <div class="small-box-head col-12 col-md-10">
+                <h3 id="fruitAndVegSmSize" class="box-heading">Small</h3>
+                <p id="fnv-small-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="fruitAndVegSmContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="fruitAndVegSmPrice" class="fnv-small-boxes-price small-price price text-center">£15</h3>
+                <button id="fruitAndVegSm" class="price-btn btn btn-success ">buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="fnv-med-boxes" class="med-boxes col-12">
+            <div class="box-container row">
+              <div class="med-box-head col-12 col-md-10">
+                <h3 id="fruitAndVegMdSize" class="box-heading">Medium</h3>
+                <p id="med-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="fruitAndVegMdContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="fruitAndVegMdPrice" class="fnv-med-boxes-price med-prices price text-center">£22</h3>
+                <button id="fruitAndVegMd" class="price-btn btn btn-success">buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="fnv-large-boxes" class="large-boxes col-12">
+            <div class="box-container row">
+              <div class="large-box-head col-12 col-md-10">
+                <h3 id="fruitAndVegLgSize" class="box-heading">Large</h3>
+                <p id="large-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="fruitAndVegLgContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="fruitAndVegLgPrice" class="fnv-large-boxes-price large-price price text-center ">£28</h3>
+                <button id="fruitAndVegLg" class="price-btn btn btn-success">buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VEG Section -->
+      <section id="veg" class="veg tab-pane show active row" role="tabpanel">
+
+        <div class="our-boxes-head col-12 p-0">
+          <div class="our-boxes-head-img row">
+            <img class="our-boxes-img col-3 p-0" src="../img/veg.jpg" alt="image of fruits and vegetables">
+            <div class="our-boxes-head-text col-9">
+              <h2 id="vegName" class="our-boxes-title ">Veg Boxes</h2>
+              <p class="our-boxes-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          </div>
+          
+        </div>
+
+        <div id="boxes" class="row">
+          <div id="veg-small-boxes" class="small-boxes col-12">
+            <div class="box-container row">
+              <div class="small-box-head col-12 col-md-10">
+                <h3 id="vegSmSize" class="box-heading">Small</h3>
+                <p id="small-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="vegSmContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="vegSmPrice" class="veg-small-boxes-price small-price price text-center">£15</h3>
+                <button id="vegSm" class="price-btn btn btn-success">buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="veg-med-boxes" class="med-boxes col-12">
+            <div class="box-container row">
+              <div class="med-box-head col-12 col-md-10">
+                <h3 id="vegMdSize" class="box-heading">Medium</h3>
+                <p id="med-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="vegMdContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="vegMdPrice" class="veg-med-boxes-price med-prices price text-center">£22</h3>
+                <button id="vegMd" class="price-btn btn btn-success">buy</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div id="veg-large-boxes " class="large-boxes col-12">
+            <div class="box-container row">
+              <div class="large-box-head col-12 col-md-10">
+                <h3 id="vegLgSize" class="box-heading">Large</h3>
+                <p id="large-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="vegLgContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="vegLgPrice" class="veg-large-boxes-price large-price price text-center">£28</h3>
+                <button id="vegLg" class="price-btn btn btn-success">buy</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Fruit Section -->
+      <section id="fruit" class="fruit tab-pane show active row" role="tabpanel">
+
+        <div class="our-boxes-head col-12 p-0">
+          <div class="our-boxes-head-img row ">
+            <img class="our-boxes-img col-3 p-0" src="../img/fruit.jpg" alt="image of fruits and vegetables">
+            <div class="our-boxes-head-text col-9">
+              <h2 id="fruitName" class="our-boxes-title">Fruit Boxes</h2>
+              <p class="our-boxes-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          </div>
+         
+        </div>
+
+        <div id="boxes" class="row">
+          <div id="fruit-small-boxes " class="small-boxes col-12">
+            <div class="box-container row">
+              <div class="small-box-head col-12 col-md-10">
+                <h3 id="fruitSmSize" class="box-heading">Small</h3>
+                <p id="small-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="fruitSmContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center">
+                <div class="row ">
+                  <h3 id="fruitSmPrice" class="fruit-small-boxes-price small-price price text-center">£15</h3>
+                <button id="fruitSm" class="price-btn btn btn-success">buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="fruit-med-boxes" class="med-boxes col-12">
+            <div class="box-container row">
+              <div class="med-box-head col-12 col-md-10">
+                <h3 id="fruitMdSize" class="box-heading">Medium</h3>
+                <p id="med-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="fruitMdContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="fruitMdPrice"class="fruit-med-boxes-price med-prices price text-center">£22</h3>
+                <button id="fruitMd" class="price-btn btn btn-success">buy</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div id="fruit-large-boxes" class="large-boxes col-12">
+            <div class="box-container row">
+              <div class="large-box-head col-12 col-md-10">
+                <h3 id="fruitLgSize" class="box-heading">Large</h3>
+                <p id="large-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="fruitLgContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="fruitLgPrice" class="fruit-large-boxes-price large-price price text-center">£28</h3>
+                <button id="fruitLg" class="price-btn btn btn-success">buy</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="special" class="special tab-pane show active row" role="tabpanel">
+
+        <div class="our-boxes-head col-12">
+          <div class="our-boxes-head-img row">
+            <img class="our-boxes-img col-3" src="../img/green-juice.jpg" alt="image of fruits and vegetables">
+            <div class="our-boxes-head-text col-9">
+            <h2 id="specialName" class="our-boxes-title">Special Boxes</h2>
+            <p class="our-boxes-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          </div>
+          
+        </div>
+
+        <div id="boxes" class="row">
+          <div id="special-small-boxes" class="small-boxes col-12">
+            <div class="box-container row">
+              <div class="small-box-head col-12 col-md-10">
+                <h3 id="specialSmSize" class="box-heading">Small</h3>
+                <p id="small-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="specialSmContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="specialSmPrice" class="special-small-boxes-price small-price price text-center">£15</h3>
+                <button id="specialSm" class="price-btn btn btn-success">buy</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div id="special-med-boxes" class="med-boxes co-12">
+            <div class="box-container row">
+              <div class="med-box-head col-12 col-md-10">
+                <h3 id="specialMdSize" class="box-heading">Medium</h3>
+                <p  class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 d="specialMdContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="specialMdPrice" class="special-med-boxes-price med-prices price text-center">£22</h3>
+                <button id="specialMd" class="price-btn btn btn-success">buy</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div id="special-large-boxes" class="large-boxes col-12">
+            <div class="box-container row">
+              <div class="large-box-head col-12 col-md-10">
+                <h3 id="specialLgSize" class="box-heading">Large</h3>
+                <p id="large-box-desc" class="box-desc">Approx 8 - 10 different types of fruit and vegetable.</p>
+                <h6 id="specialLgContents">Potatoes, Celeriac, Onions, Lettuce, Cherry Tomatoes, Kiwi, Clementines</h6>
+              </div>
+              <div class="price-box col-12 col-md-2 align-items-center ml-auto">
+                <div class="row">
+                  <h3 id="specialLgPrice" class="special-large-boxes-price large-price price text-center">£28</h3>
+                <button id="specialLg" class="price-btn btn btn-success">buy</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </section>
+
+    <footer class="footer container-fluid align-items-center">
+      <div class="row align-items-center">
+        <h6 class="footer-logo col-6">Just Organic</h6>
+        <ul class="footer-list col-3 offset-3">
+          <li><a href="" class="footer-nav-link footer-links">Privacy</a></li>
+          <li><a href="" class="footer-nav-link footer-links">Terms</a></li>
+          <li><a href="" class="footer-nav-link footer-links">Contact us</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+   <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  <!-- JS -->
+  <script type="module" src="../scripts/our-boxes.js"></script>
+  
+  
+</body>
+
+</html>
